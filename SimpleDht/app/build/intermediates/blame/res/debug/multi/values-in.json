@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/res/merged/debug/values-in/values-in.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 109,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 109,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 101,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 101,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 104,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 379,
+                        "endColumn": 104,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 86,
+                    "endOffset": 454
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 86,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 459,
+                    "endColumn": 103,
+                    "endOffset": 558
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 571,
+                        "endColumn": 103,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 563,
+                    "endColumn": 115,
+                    "endOffset": 674
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 115,
+                        "endOffset": 786
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 679,
+                    "endColumn": 102,
+                    "endOffset": 777
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 791,
+                        "endColumn": 102,
+                        "endOffset": 889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 782,
+                    "endColumn": 108,
+                    "endOffset": 886
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 894,
+                        "endColumn": 108,
+                        "endOffset": 998
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 891,
+                    "endColumn": 100,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1003,
+                        "endColumn": 100,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 103,
+                    "endOffset": 1091
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 103,
+                        "endOffset": 1203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1096,
+                    "endColumn": 107,
+                    "endOffset": 1199
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1208,
+                        "endColumn": 107,
+                        "endOffset": 1311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1204,
+                    "endColumn": 107,
+                    "endOffset": 1307
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1316,
+                        "endColumn": 107,
+                        "endOffset": 1419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1312,
+                    "endColumn": 122,
+                    "endOffset": 1430
+                },
+                "from": {
+                    "file": "/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-in/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1424,
+                        "endColumn": 122,
+                        "endOffset": 1542
+                    }
+                }
+            }
+        ]
+    }
+]

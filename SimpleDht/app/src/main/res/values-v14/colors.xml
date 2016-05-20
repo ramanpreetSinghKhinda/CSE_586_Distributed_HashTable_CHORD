@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#28ABE3</color>
+    <color name="primary_dark">#1C9ED6</color>
+
+    <color name="background">#DDEBF4</color>
+    <color name="accent">#FAFAFA</color>
+    <color name="white">#FAFAFA</color>
+
+    <color name="text">#6D6D6D</color>
+    <color name="hint_text">#BDBDBD</color>
+    <color name="disabled">#8c8c8c</color>
+
+    <color name="my_port">#000000</color>
+
+    <color name="remote_port0">#8DB600</color>
+    <color name="remote_port1">#EEB211</color>
+    <color name="remote_port2">#8c8c8c</color>
+    <color name="remote_port3">#28ABE3</color>
+    <color name="remote_port4">#B31B1B</color>
+    <color name="remote_port5">#6D6D6D</color>
+</resources>

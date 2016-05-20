@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/raman/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="860340562250678d1a344907ac75754e259cdb14">
+        <dex dex="/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/pre-dexed/debug/hamcrest-core-1.1_8d763bdd0ed26d523257ad2ba97a6a03ec93a9da.jar" />
+    </item>
+    <item
+        jar="/Users/raman/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e4f1766ce7404a08f45d859fb9c226fc9e41a861">
+        <dex dex="/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/pre-dexed/debug/junit-4.10_fb803001c6f32caec8bbaa550036133b5768200b.jar" />
+    </item>
+    <item
+        jar="/Users/raman/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c9ad4a0850ab676c5c64461a05ca524cdfff59f1">
+        <dex dex="/Users/raman/Documents/SUNY_BUFFALO/Android/DS/PA3/SimpleDht/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1_657a3969993e288860287db99bf35cbcdbc46887.jar" />
+    </item>
+
+</items>
