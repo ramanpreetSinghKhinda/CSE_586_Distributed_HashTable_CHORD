@@ -22,3 +22,14 @@ References
 I have used below two references to design Chord: -</br>
 1. [Lecture slides](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/lectures/14-dht.pdf)</br>
 2. [Chord paper](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/files/chord_sigcomm.pdf)
+
+
+Writing the Content Provider
+-----------------------------------------
+This project implements a [**Content Provider**](https://developer.android.com/guide/topics/providers/content-providers.html) that provide all the DHT functionalities. For example, it creates server and client threads, open sockets, and respond to incoming requests based on **Chord routing protocol**. There are few assumptions/restrictions for the [**Grader**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/tree/master/Testing_Program) that test this application: -
+>  1. Any app (not just our app) should be able to access (read and write) our content provider.
+>  2. There are always **5 nodes** in the system.
+>  3. The content provider should **only store the <key, value> pairs local to its own partition**
+>  4. The content provider do **not need to handle concurrent node joins**. Its assumed that a node join will only happen once the system completely processes the previous join.
+>   5. The content provider do **not need to handle insert/query requests while a node is joining**. Its assumed  that insert/query requests will be issued only with a stable system.
+>   6. The content provider do **not need to handle node leaves/failures**. 
