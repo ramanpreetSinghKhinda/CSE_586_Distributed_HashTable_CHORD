@@ -37,3 +37,18 @@ This project implements a [**Content Provider**](https://developer.android.com/g
 >  5. The content provider should **only store the < key, value > pairs local to its own partition**.
 >  5. The content provider do **not need to handle concurrent node joins** and its assumed that a node join will only happen once the system completely processes the previous join.
 >  6. The content provider do **not need to handle insert/query requests while a node is joining** and Its assumed  that insert/query requests will be issued only with a stable system.
+
+
+Running the Grader/Testing Program
+-----------------------------------------
+> 1. Load the Project in Android Studio and create the [**apk file**](https://developer.android.com/studio/run/index.html).
+> 2. Download  the [**Testing Program**](https://github.com/ramanpreet1990/CSE_586_Distributed_HashTable_CHORD/tree/master/Testing_Program) for your platform.
+> 3. Before you run the program, please make sure that you are **running five AVDs**. The below command will do it: -
+	- **python [run_avd.py](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/run_avd.py) 5**
+> 4. Also make sure that the **Emulator Networking** setup is done. The below command will do it: -
+	- **python [set_redir.py](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) 10000**
+> 5.  Run the grader: -
+	- chmod +x ***simpledht-grading.osx***
+    - ./simpledht-grading.osx ***apk file path***
+> 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
+	- ./simpledht-grading.osx **-h** *apk file path*
