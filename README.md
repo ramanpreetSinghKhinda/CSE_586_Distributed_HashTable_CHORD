@@ -26,7 +26,7 @@ I have used below two references to design Chord: -</br>
 
 Writing the Content Provider
 -----------------------------------------
-This project implements a [**Content Provider**](https://developer.android.com/guide/topics/providers/content-providers.html) that provide all the DHT functionalities. For example, it creates server and client threads, open sockets, and respond to incoming requests based on **Chord routing protocol**. There are few assumptions/restrictions for the [**Grader**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/tree/master/Testing_Program) that test this application: -
+This project implements a [**Content Provider**](https://developer.android.com/guide/topics/providers/content-providers.html) that provide all the DHT functionalities. For example, it creates server and client threads, open sockets, and respond to incoming requests based on **Chord routing protocol**. There are few assumptions/restrictions for the [**Grader**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/tree/master/Testing_Program) that test this application. Refer [**Project Specifications**](https://docs.google.com/document/d/154pUC7gd714noxwmuITNJztqQBYj5IimjaqzSgFTR3s/edit) for details: -
 >  1. Any app (not just our app) should be able to access (read and write) our content provider.
 >  2. Each content provider instance should have a node id derived from its emulator port. This node id should be obtained by applying the SHA1 hash function to the emulator port. For example, **the node id of the content provider instance running on emulator-5554 should be, node_id = genHash(“5554”)**. This is necessary to find the correct position of each node in the Chord ring.
 >  3. We have fixed the ports & sockets: -</br>
