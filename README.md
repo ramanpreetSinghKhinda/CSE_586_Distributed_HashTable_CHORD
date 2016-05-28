@@ -58,7 +58,7 @@ Credits
 -------
 This project contains scripts and other related material that is developed by [**Networked Systems Research Group**](https://nsr.cse.buffalo.edu) at **[University of Buffalo, The State University of New York](http://www.cse.buffalo.edu)**.
 
-I acknowledge and grateful to [**Professor Steve ko**](https://nsr.cse.buffalo.edu/?page_id=272) and [**TA Kyungho Jeon**](http://www.cse.buffalo.edu/~kyunghoj/) for their continuous support throughout the [**CSE 586**](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/) course that helped me learn the skills of Large Scale Distributed Systems and develop a simplified version of **Distributed HashTable based on CHORD protocol**.
+I acknowledge and grateful to [**Professor Steve ko**](https://nsr.cse.buffalo.edu/?page_id=272) and [**TA Kyungho Jeon**](http://www.cse.buffalo.edu/~kyunghoj/) for their continuous support throughout the Course ([**CSE 586**] (http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/)) that helped me learn the skills of Large Scale Distributed Systems and develop a simplified version of **Distributed HashTable based on CHORD protocol**.
 
 
 Developer
