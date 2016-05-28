@@ -30,9 +30,9 @@ This project implements a [**Content Provider**](https://developer.android.com/g
 >  1. Any app (not just our app) should be able to access (read and write) our content provider.
 >  2. The content provider should **only store the < key, value > pairs local to its own partition**.
 >  3. The content provider do **not need to handle concurrent node joins** and its assumed that a node join will only happen once the system completely processes the previous join.
->  4. The content provider also do **not need to handle insert/query requests while a node is joining** and its assumed  that insert/query requests will be issued only with a stable system.
+>  4. The content provider also do **not need to handle insert/query requests while a node is joining** and its assumed  that insert/query requests will be issued only with a stable system i.e there will be **no failure** in the system.
 >  5. Each content provider instance should have a node id derived from its emulator port. This node id should be obtained by applying the SHA1 hash function to the emulator port. For example, **the node id of the content provider instance running on emulator-5554 should be, node_id = genHash(“5554”)**. This is necessary to find the correct position of each node in the Chord ring.
->  6. There are always **5 nodes** in the system and the content provider do **not need to handle node leaves/failures**.
+>  6. There are always **5 nodes** in the system.
 >  7. We have fixed the ports & sockets: -</br>
 	a) Our app opens one server socket that listens on **Port 10000**. </br>
 	b) We use [**run_avd.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/run_avd.py) and [**set_redir.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) scripts to set up the testing environment.</br>
