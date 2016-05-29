@@ -30,7 +30,7 @@ I have taken reference from below sources to design the DHT based on Chord: -</b
 Writing the Content Provider
 -----------------------------------------
 This project implements a [**Content Provider**](https://developer.android.com/guide/topics/providers/content-providers.html) that provide all the DHT functionalities. For example, it creates server and client threads, open sockets, and respond to incoming requests based on **Chord routing protocol**. There are few assumptions/restrictions for the [**Grader**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/tree/master/Testing_Program) that test this application. Refer [**Project Specifications**](https://docs.google.com/document/d/154pUC7gd714noxwmuITNJztqQBYj5IimjaqzSgFTR3s/edit) for details: -
-```
+
 1. Any app (not just our app) should be able to access (read and write) our content provider.
 2. The content provider should **only store the < key, value > pairs local to its own partition**.
 3. The content provider do **not need to handle concurrent node joins** and its assumed that a node join will only happen once the system completely processes the previous join.
@@ -41,12 +41,11 @@ This project implements a [**Content Provider**](https://developer.android.com/g
 	a) Our app opens one server socket that listens on **Port 10000**. </br>
 	b) We use [**run_avd.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/run_avd.py) and [**set_redir.py**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) scripts to set up the testing environment.</br>
 	c) The grading will use 5 AVDs. The redirection ports are **11108, 11112, 11116, 11120, and 11124**.
-```
+
 
 
 Running the Grader/Testing Program
 -----------------------------------------
-```
 1. Load the Project in Android Studio and create the [**apk file**](https://developer.android.com/studio/run/index.html).
 2. Download  the [**Testing Program**](https://github.com/ramanpreet1990/CSE_586_Distributed_HashTable_CHORD/tree/master/Testing_Program) for your platform.
 3. Before you run the program, please make sure that you are **running five AVDs**. The below command will do it: -
@@ -58,7 +57,7 @@ Running the Grader/Testing Program
 	- $ ./*< grader executable>* ***apk file path***
 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
 	-  $ *< grader executable>*  **-h**
-```
+
 
 Credits
 -------
