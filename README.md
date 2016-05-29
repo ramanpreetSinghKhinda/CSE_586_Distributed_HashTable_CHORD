@@ -49,10 +49,10 @@ Running the Grader/Testing Program
 > 4. Also make sure that the **Emulator Networking** setup is done. The below command will do it: -
 	- **python [set_redir.py](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/blob/master/Scripts/set_redir.py) 10000**
 > 5.  Run the grader: -
-	- chmod +x ***simpledht-grading.osx***
-    - ./simpledht-grading.osx ***apk file path***
+	- $ chmod +x ***< grader executable>***
+	- $ ./*< grader executable>* ***apk file path***
 > 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
-	- ./simpledht-grading.osx **-h** *apk file path*
+	-  $ *< grader executable>*  **-h**
 
 
 Credits
