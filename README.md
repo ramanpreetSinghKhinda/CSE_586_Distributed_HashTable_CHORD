@@ -19,9 +19,10 @@ if there are multiple instances of the app, all instances should form a **Chord 
 
 References
 ---------------
-I have used below two references to design Chord: -</br>
+I have taken reference from below sources to design the DHT based on Chord: -</br>
 1. [Lecture slides](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/lectures/14-dht.pdf)</br>
 2. [Chord paper](http://www.cse.buffalo.edu/~stevko/courses/cse486/spring16/files/chord_sigcomm.pdf)
+3. [Cloud Computing Concepts - University of Illinois at Urbana-Champaign](https://www.coursera.org/learn/cloud-computing)
 
 
 Writing the Content Provider
