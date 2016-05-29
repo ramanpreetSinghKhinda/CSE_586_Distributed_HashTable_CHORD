@@ -30,6 +30,7 @@ I have taken reference from below sources to design the DHT based on Chord: -</b
 Writing the Content Provider
 -----------------------------------------
 This project implements a [**Content Provider**](https://developer.android.com/guide/topics/providers/content-providers.html) that provide all the DHT functionalities. For example, it creates server and client threads, open sockets, and respond to incoming requests based on **Chord routing protocol**. There are few assumptions/restrictions for the [**Grader**](https://github.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/tree/master/Testing_Program) that test this application. Refer [**Project Specifications**](https://docs.google.com/document/d/154pUC7gd714noxwmuITNJztqQBYj5IimjaqzSgFTR3s/edit) for details: -
+```
 >  1. Any app (not just our app) should be able to access (read and write) our content provider.
 >  2. The content provider should **only store the < key, value > pairs local to its own partition**.
 >  3. The content provider do **not need to handle concurrent node joins** and its assumed that a node join will only happen once the system completely processes the previous join.
@@ -56,7 +57,7 @@ Running the Grader/Testing Program
 	- $ ./*< grader executable>* ***apk file path***
 > 6. **‘-h’** argument will show you what options are available. Usage is shown below: -
 	-  $ *< grader executable>*  **-h**
-
+```
 
 Credits
 -------
