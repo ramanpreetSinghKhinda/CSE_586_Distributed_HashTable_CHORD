@@ -69,9 +69,7 @@ I acknowledge and grateful to [**Professor Steve ko**](https://nsr.cse.buffalo.e
 
 Developer
 ---------
-Ramanpreet Singh Khinda (rkhinda@buffalo.edu)</br>
-[![linkedin](https://raw.githubusercontent.com/ramanpreet1990/CSE_586_Simplified_Amazon_Dynamo/master/Resources/ic_linkedin.png)](https://www.linkedin.com/in/ramanpreetSinghKhinda)
-
+Ramanpreet Singh Khinda [<img src="https://github.com/ramanpreetSinghKhinda/CSE_535_Multilingual_Search_System/blob/master/Resources/linkedin.png" height="50" width="50">](https://www.linkedin.com/in/ramanpreetSinghKhinda)
 
 License
 ----------
